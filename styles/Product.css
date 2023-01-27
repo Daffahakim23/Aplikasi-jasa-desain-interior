@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+main {
+  padding: 0 2rem;
+}
+section > h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 0.5em 1em;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  padding: 0.5em 1em;
+  margin: 8px auto;
+  min-width: 50%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  color: rgb(116, 116, 116);
+}
+
+input[type="submit"] {
+  font-size: large;
+  padding: 0.5em 1em;
+  margin-left: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: rgb(204, 179, 119);
+  background: linear-gradient(
+    42deg,
+    rgba(204, 179, 119, 1) 0%,
+    rgba(152, 122, 82, 1) 100%
+  );
+  color: white;
+  text-transform: uppercase;
+}
+
+.prtitle {
+  padding: 1rem 0;
+}
+
+.prtitle h1 {
+  text-align: center;
+  padding: 1em 0;
+}
+.submit {
+  text-align: end;
+}
+
+.lainnya {
+  width: 80%;
+}
+
+.prtable1 {
+  display: grid;
+  padding: 2rem 0;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  border-color: black;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: rgb(43, 42, 39);
+  color: white;
+}
+
+.styled-table td + td {
+  text-align: end;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody td:first-child {
+  border-right: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table label {
+  font-weight: bold;
+}
+
+.prtable2 {
+  display: grid;
+  padding: 2rem 0;
+}
+
+.prtable2 .styled-table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  box-shadow: 0 0 0 0;
+}
+
+.prtable2 input[type="text"] {
+  min-width: 100%;
+}
+.prtable2 tbody tr {
+  border-radius: 100px !important;
+  background-color: rgb(245, 236, 207);
+  border: none;
+}
+
+.prtable2 tbody tr:nth-of-type(even) {
+  background-color: rgb(245, 236, 207);
+}
+
+.nomer {
+  display: flex;
+}
+
+.nomer1 {
+  width: 20%;
+  margin-right: 0.1em;
+}
+
+.nomer2 {
+  width: 80%;
+}

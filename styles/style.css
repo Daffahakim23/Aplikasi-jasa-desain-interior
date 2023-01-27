@@ -1,0 +1,202 @@
+
+/* 
+#carakerja {
+  overflow: hidden;
+} */
+.titlecaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titlecaker > .rectangle {
+  height: 0.1rem;
+  width: 15rem;
+}
+
+.gridcaker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 4rem;
+  margin: 2rem;
+}
+
+.gridcaker > div {
+  overflow: hidden;
+  display: flex;
+  flex-grow: 1;
+  min-height: 0;
+  padding: 1.5rem 2rem;
+  flex-direction: column;
+  border: #f8cc8a solid 0.1rem;
+  border-radius: 15px;
+}
+
+.gridcaker > div > .langkah {
+  font-family: "Unisonprobold";
+  border: black solid 0.2rem;
+  border-radius: 8px;
+  padding: 0.5rem 0.5rem;
+  align-self: flex-start;
+  font-size: 1vw;
+}
+
+.gridcaker > div > .mulai {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: calc(0.7rem + 1vw);
+  padding-top: 2rem;
+}
+
+.gridcaker > div > .deskripsi {
+  padding-top: 0.5rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: small;
+}
+
+#paket {
+  display: grid;
+  padding: 0 20%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.griditem {
+  gap: 1rem;
+}
+
+.beli {
+  background-color: black;
+  color: #e2ba06;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+#paket > h1 {
+  margin: 0 auto;
+  font-size: 2.5rem;
+}
+
+#paket > div > div {
+  border: solid rgba(0, 0, 0, 0.1);
+}
+
+#paket ul {
+  text-align: start;
+}
+
+#paket ul li {
+  padding: 0;
+  font-size: small;
+  list-style-type: circle;
+}
+
+.promo1 {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 0 3rem;
+  padding: 3rem;
+}
+
+.promo1 > h1 {
+  font-size: calc(2rem + 0.1vh);
+  margin-bottom: 1rem;
+}
+
+.promo1 > p {
+  font-size: calc(1rem + 0.1vh);
+}
+
+.promo2 {
+  padding: 2rem 0;
+}
+
+.promo2 > h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.inputtext {
+  display: grid;
+}
+
+.inputtext > label {
+  margin: 0 auto;
+  font-size: 1.125rem;
+  padding-top: 1rem;
+}
+
+.inputtext > div {
+  padding: 1rem 0;
+}
+
+input[type="text"],
+select {
+  width: 50%;
+  padding: 20px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+}
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  border: none;
+  padding: 0.2rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+#rdgrup {
+  width: 50%;
+  display: flex;
+  justify-self: center;
+}
+
+#rdgrup > label {
+  margin: auto;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 940px) {
+  #welcome {
+    display: grid;
+    /* box-sizing: border-box; */
+    /* flex-direction: column;
+    align-items: center; */
+  }
+
+  .imgwel > img {
+    aspect-ratio: 654/349;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .gridcaker {
+    display: grid;
+    grid-template-columns: initial;
+    gap: 2rem 4rem;
+    margin: 2rem;
+  }
+
+  .gridcaker > div {
+    overflow: visible;
+    min-height: initial;
+  }
+}

@@ -1,0 +1,47 @@
+.h75 {
+  height: 75vh;
+}
+#home {
+  position: relative;
+  display: grid;
+  background-image: url("./images/Homepage.png");
+  background-size: cover;
+}
+
+.hero__text {
+  margin: auto 0;
+  display: grid;
+  padding: 0 22%;
+  color: white;
+  font-size: calc(1rem + 5vh);
+}
+
+.hero__text > div {
+  margin-left: auto;
+}
+.hero__text > span {
+  font-size: 2rem;
+}
+
+.hubungikami {
+  margin: 2rem;
+  color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  right: 0;
+}
+
+.hubungikami > * {
+  padding: 0.5rem;
+}
+.hubungikami img {
+  background-color: rgb(70, 174, 63);
+  border-radius: 50%;
+}
+
+.hubungikami p {
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}

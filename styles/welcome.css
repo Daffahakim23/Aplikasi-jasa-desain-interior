@@ -1,0 +1,35 @@
+#welcome {
+  display: flex;
+  padding: 3rem;
+}
+
+/* #welcome > * {
+  flex-basis: 50%;
+  border: saddlebrown solid;
+} */
+
+.rectangle {
+  background-color: #f8cc8a;
+}
+.descwel {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem;
+}
+.descwel > div {
+  width: 50%;
+  height: 3%;
+}
+
+.descwel > h1 {
+  font-size: calc(0.5rem + 3vw);
+  white-space: nowrap;
+}
+.descwel > .ddi {
+  font-size: calc(0.5rem + 1vw);
+}
+
+.descwel > p {
+  font-size: calc(0.1rem + 1vw);
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500&family=Open+Sans:wght@400;700&family=Work+Sans&display=swap");
+@font-face {
+  font-family: "Unisonprobold";
+  font-style: normal;
+  src: local("UnisonPro"), url("fonts/UnisonPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Unisonprolight";
+  font-style: normal;
+  src: url("fonts/UnisonPro-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: url("fonts/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "helveticabold";
+  src: url("fonts/HelveticaBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "euclid-me";
+  src: url("fonts/Euclid CircularB-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "euclid";
+  src: url("fonts/Euclid CircularB-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "helveticabold";
+  src: url("fonts/HelveticaBold.ttf") format("truetype");
+}
+
+.ubold {
+  font-family: "Unisonprobold";
+}
+
+.ulight {
+  font-family: "Unisonprolight";
+}
+
+.helve {
+  font-family: "helvetica";
+}
+
+.helvebold {
+  font-family: "helveticabold";
+}
+
+.arial {
+  font-family: Arial, sans-serif;
+}
+
+.arialblack {
+  font-family: "Arial Black";
+}
+
+.euclidme {
+  font-family: "euclid-me";
+}
+
+.euclid {
+  font-family: "euclid";
+}
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.opensansbold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.dmsans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.worksans {
+  font-family: "Work Sans", sans-serif;
+}

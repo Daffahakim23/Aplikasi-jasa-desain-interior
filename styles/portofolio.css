@@ -1,0 +1,11 @@
+@import "/styles/navbar.css";
+@import "/styles/font-style.css";
+@import "/styles/footer.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+section > h1 {
+  text-align: center;
+}

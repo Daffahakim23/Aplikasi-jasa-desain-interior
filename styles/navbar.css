@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  overflow: hidden;
+}
+
+picture {
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+}
+picture > img {
+  right: -5rem;
+  aspect-ratio: 308/202;
+  width: 240px;
+  position: absolute;
+}
+
+picture::before {
+  position: absolute;
+  white-space: nowrap;
+  content: "DDI Solution";
+  top: 2.5rem;
+  right: -4rem;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul li {
+  padding: 20px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+ul li a {
+  font-size: larger;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

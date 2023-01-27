@@ -1,0 +1,73 @@
+@import "/styles/navbar.css";
+@import "/styles/font-style.css";
+@import "/styles/footer.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+section > h1 {
+  text-align: center;
+}
+
+.abouttitle {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.abouthero {
+  background-image: url("./images/aboutus.png");
+  background-size: cover;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.abouthero > p {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  text-align: center;
+  font-size: clamp(2rem, 3vw, 5rem);
+}
+
+.aboutDDI {
+  margin: auto;
+  max-width: 900px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+  min-height: 60vh;
+}
+
+.aboutDDI > p {
+  margin: auto;
+  text-align: justify;
+}
+.aboutimage {
+  display: grid;
+}
+
+.aboutimage > img {
+  aspect-ratio: 775/307 !important;
+  width: 100%;
+  margin: auto;
+}
+
+.aboutcontact {
+  margin: auto;
+  max-width: 900px;
+  text-align: center;
+  min-height: 30vh;
+  display: grid;
+}
+
+.contact__item {
+  margin: auto;
+}
+
+.contact__item > img {
+  width: 100%;
+}
